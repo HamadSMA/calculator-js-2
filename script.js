@@ -29,5 +29,17 @@ buttonValues.forEach((buttonValue) => {
   let button = document.createElement("button");
   button.innerText = value;
 
+  if (operatorsSymbols.includes(value)) {
+    button.style.color = "#ffba00";
+  }
+
+  if (specialSymbols.includes(value)) {
+    button.style.color = "#00bba7";
+  }
+
+  if (value === "del") {
+    button.style.color = "#ff6467";
+  }
+
   document.querySelector(".buttons").appendChild(button);
 });
