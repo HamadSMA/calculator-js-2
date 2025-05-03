@@ -37,16 +37,16 @@ button {
   border-radius: 10px;
   font-size: 25px;
   background-color: #2a2a4491;
-  color: #b0abab;
+  color: #cfcfcf;
   border: none;
   text-align: center;
 }
 
 button:hover {
-  opacity: 80%;
+  background-color: #474769;
   border: 1px solid #e0d9d9;
 }
 button:active {
-  opacity: 100%;
-  border: none;
+  background-color: #2a2a4491;
+  opacity: 70%;
 }
