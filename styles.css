@@ -1,8 +1,24 @@
 body {
+  font-family: "DynaPuff", system-ui;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: #e7e7e7;
+}
+
+h1 {
+  font-size: 50px;
+  color: #72c35a;
+}
+
+p {
+  color: #686868;
+}
+
+span {
+  color: #72c35a;
 }
 
 .calculator {
