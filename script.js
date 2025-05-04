@@ -127,7 +127,7 @@ function operate(num1, num2, operator) {
     case "+":
       result = num1 + num2;
   }
-  return result;
+  return Math.round(result * 100) / 100;
 }
 
 function result(value) {
