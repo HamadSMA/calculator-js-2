@@ -54,8 +54,6 @@ screen.value = "0";
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
-    const click = new Audio("click.mp3");
-    click.play();
     let value = button.innerText;
 
     if (operatorsSymbols.includes(value)) {
