@@ -73,7 +73,6 @@ function specialFunctions(value) {
     secondNumber = null;
     operator = null;
   } else if (value === "+/-") {
-    console.log(value);
     if (screen.value === "0") {
       screen.value = screen.value;
     } else if (screen.value.includes("-")) {
