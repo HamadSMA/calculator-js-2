@@ -85,7 +85,9 @@ function specialFunctions(value) {
     screen.value = Number(screen.value) / 100;
   } else if (value === "del") {
     screen.value = screen.value.slice(0, -1);
-    if (screen.value === "") screen.value = "0";
+    if (screen.value === "" || screen.value === "-") {
+      screen.value = "0";
+    }
   }
 }
 
