@@ -77,11 +77,9 @@ function specialFunctions(value) {
     if (screen.value === "0") {
       screen.value = screen.value;
     } else if (screen.value.includes("-")) {
-      console.log("trigger");
       screen.value = screen.value.slice(0, -1);
     } else {
-      console.log("Add minus");
-      screen.value += "-";
+      screen.value = "-" + screen.value;
     }
   } else if (value === "%") {
     screen.value = Number(screen.value) / 100;
