@@ -77,7 +77,7 @@ function specialFunctions(value) {
     if (screen.value === "0") {
       screen.value = screen.value;
     } else if (screen.value.includes("-")) {
-      screen.value = screen.value.slice(0, -1);
+      screen.value = screen.value.slice(1);
     } else {
       screen.value = "-" + screen.value;
     }
