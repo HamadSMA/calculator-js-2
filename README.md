@@ -8,7 +8,7 @@ A simple calculator web app built with **HTML**, **CSS**, and **JavaScript**. Th
 
 Check out the live demo: [Calculator App](https://hamadsma.github.io/calculator-js-2/)
 
-![Calculator Screenshot](cal-pic.png)
+![Calculator Screenshot](calc-pic.png)
 
 ---
 
